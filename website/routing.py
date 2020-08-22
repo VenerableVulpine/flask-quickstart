@@ -13,4 +13,4 @@ from flask_sqlalchemy import SQLAlchemy
 
 @app.route("/index")
 def landing():
-    return render_template("index.html")
+    return render_template("pages/index.html")
